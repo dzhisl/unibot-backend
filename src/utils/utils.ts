@@ -27,3 +27,9 @@ export async function parseNewTokens(): Promise<string[]> {
   
   return partsAfterUnderscore;
 }
+
+async function main(){
+    console.log(await parseNewTokens())
+}
+
+main()
